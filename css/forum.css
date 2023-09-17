@@ -72,3 +72,90 @@ a:hover
 
 /* navigation part has just ended here 
 from here we will start coding about the content part*/
+
+.forum 
+{
+    height:90%;
+    width:100%;
+    margin-top:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content-forum
+{
+    height:80%;
+    width:80%;
+    background:grey;
+}
+
+.head-content-form
+{
+    height:10%;
+    width:100%;
+    background:orange;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn
+{
+    height:70%;
+    width:6%;
+    margin-left:0.5rem;
+}
+
+.content-content-form
+{
+    height:100%;
+    width:100%;
+    background:#ffffff;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap:1rem;
+}
+
+
+
+.txt
+{
+    margin-left:2rem;
+    height:2.5rem;
+    width:25rem;
+}
+
+.box1-contentforum
+{
+    padding:1.2rem;
+    background:grey;
+}
+
+.box2-contentforum
+{
+    padding:1.2rem;
+    background:grey;
+}
+
+.box3-contentforum
+{
+    padding:1.2rem;
+    background:grey;
+}
+
+
+/*** content session has ended over here ****
+***** from now on we will be working on to build the footer ****/
+
+.footer 
+{
+    height:10%;
+    width:100%;
+    margin-top:2rem;
+    background:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+}
