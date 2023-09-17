@@ -72,3 +72,27 @@ a:hover
 
 /* navigation part has just ended here 
 from here we will start coding about the content part*/
+
+.content 
+{
+    height:50%;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.sub1-content
+{
+    height:100%;
+    width:49%;
+    background:url('../img/fact/pic5.jpg');
+    background-size:100% 100%;
+}
+
+.sub2-content
+{
+    height:100%;
+    width:49%;
+    background:url('../img/fact/pic6.jpg');
+    background-size:100% 100%;
+}

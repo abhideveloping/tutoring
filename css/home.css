@@ -5,6 +5,11 @@
     box-sizing:border-box;
 }
 
+:root 
+{
+    font-size:16px;
+}
+
 html, body
 {
     height:100%;
@@ -88,7 +93,6 @@ from here we will start coding about the content part*/
 {
     height:110%;
     width:100%;
-    background:blue;
     display:flex;
     justify-content:center;
     margin-top:2rem;
@@ -98,16 +102,10 @@ from here we will start coding about the content part*/
 {
     height:90%;
     width:70%;
-    background:hsl(120, 100%, 25%);
     display:grid;
     grid-template-rows:1fr 1fr;
     grid-template-columns:1fr 1fr;
     grid-gap:1rem;
-}
-
-.box1
-{
-    background:purple;
 }
 
 .pic-box1
@@ -123,12 +121,7 @@ from here we will start coding about the content part*/
     height:50%;
     width:100%;
     padding:1rem;
-    background:yellow;
-}
-
-.box2
-{
-    background:purple;
+    background:#f0eeee;
 }
 
 .pic-box2
@@ -144,12 +137,7 @@ from here we will start coding about the content part*/
     height:50%;
     width:100%;
     padding:1rem;
-    background:yellow;
-}
-
-.box3
-{
-    background:purple;
+    background:#f0eeee;
 }
 
 .pic-box3
@@ -165,13 +153,10 @@ from here we will start coding about the content part*/
     height:50%;
     width:100%;
     padding:1rem;
-    background:yellow;
+    background:#f0eeee;
 }
 
-.box4
-{
-    background:purple;
-}
+
 
 .pic-box4
 {
@@ -186,5 +171,16 @@ from here we will start coding about the content part*/
     height:50%;
     width:100%;
     padding:1rem;
-    background:yellow;
+    background:#f0eeee;
+}
+
+.footer 
+{
+    height:10%;
+    width:100%;
+    background:#000000;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
