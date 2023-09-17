@@ -86,7 +86,7 @@ from here we will start coding about the content part*/
 
 .content-1
 {
-    height:70%;
+    height:110%;
     width:100%;
     background:blue;
     display:flex;
@@ -97,11 +97,12 @@ from here we will start coding about the content part*/
 .content-1-main
 {
     height:90%;
-    width:90%;
+    width:70%;
     background:hsl(120, 100%, 25%);
     display:grid;
     grid-template-rows:1fr 1fr;
     grid-template-columns:1fr 1fr;
+    grid-gap:1rem;
 }
 
 .box1
@@ -109,9 +110,41 @@ from here we will start coding about the content part*/
     background:purple;
 }
 
+.pic-box1
+{
+    height:50%;
+    width:100%;
+    background:url(../img/pic1.jpg);
+    background-size:100% 100%;
+}
+
+.content-box1
+{
+    height:50%;
+    width:100%;
+    padding:1rem;
+    background:yellow;
+}
+
 .box2
 {
     background:purple;
+}
+
+.pic-box2
+{
+    height:50%;
+    width:100%;
+    background:url(../img/pic2.jpg);
+    background-size:100% 100%;
+}
+
+.content-box2
+{
+    height:50%;
+    width:100%;
+    padding:1rem;
+    background:yellow;
 }
 
 .box3
@@ -119,7 +152,39 @@ from here we will start coding about the content part*/
     background:purple;
 }
 
+.pic-box3
+{
+    height:50%;
+    width:100%;
+    background:url(../img/pic3.jpg);
+    background-size:100% 100%;
+}
+
+.content-box3
+{
+    height:50%;
+    width:100%;
+    padding:1rem;
+    background:yellow;
+}
+
 .box4
 {
     background:purple;
+}
+
+.pic-box4
+{
+    height:50%;
+    width:100%;
+    background:url(../img/pic4.jpg);
+    background-size:100% 100%;
+}
+
+.content-box4
+{
+    height:50%;
+    width:100%;
+    padding:1rem;
+    background:yellow;
 }
