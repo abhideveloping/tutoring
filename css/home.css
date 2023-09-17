@@ -68,3 +68,58 @@ a:hover
 /* navigation part has just ended here 
 from here we will start coding about the content part*/
 
+.content 
+{
+    height:40%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.mainpic
+{
+    height:100%;
+    width:90%;
+    background:url('../img/main.jpg');
+    background-size:100% 100%;
+}
+
+.content-1
+{
+    height:70%;
+    width:100%;
+    background:blue;
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.content-1-main
+{
+    height:90%;
+    width:90%;
+    background:hsl(120, 100%, 25%);
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr;
+}
+
+.box1
+{
+    background:purple;
+}
+
+.box2
+{
+    background:purple;
+}
+
+.box3
+{
+    background:purple;
+}
+
+.box4
+{
+    background:purple;
+}
