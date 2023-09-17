@@ -76,7 +76,6 @@ from here we will start coding about the content part*/
 {
     height:80%;
     width:100%;
-    background:brown;
     margin-top:2rem;
     display:flex;
     justify-content:center;
@@ -86,7 +85,31 @@ from here we will start coding about the content part*/
 {
     height:100%;
     width:80%;
+    padding:2rem 5rem;
     background:orange;
+    font-size:1.2rem;
+    font-weight:bolder;
+}
+
+input[type=text]
+{
+    width:480%;
+    padding:0.3rem 0.3rem;
+    size:50;
+    margin-top:0.4rem;
+}
+
+.btn
+{
+    height:2rem;
+    width:4rem;
+    margin-top:2rem;
+}
+
+.last 
+{
+    margin-top:2rem;
+    margin-left:1.4rem;
 }
 
 .footer 
