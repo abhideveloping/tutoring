@@ -96,3 +96,44 @@ from here we will start coding about the content part*/
     background:url('../img/fact/pic6.jpg');
     background-size:100% 100%;
 }
+
+/*** we will start styling the another content from here 
+
+******** so let's begin then ****/
+
+.content2
+{
+    height:80%;
+    width:100%;
+    display:flex;
+    padding-left:10rem;
+    flex-direction:column;
+    margin-top:2rem;
+}
+
+.pic-content2
+{
+    height:50%;
+    width:90%;
+    background:url(../img/fact/pic7.jpg);
+    background-size:100% 100%;
+}
+
+.content-content2
+{
+    height:50%;
+    width:90%;
+    padding:1rem;
+    background:#f5f3f3;
+}
+
+.footer 
+{
+    height:10%;
+    width:100%;
+    background:#000000;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
